@@ -1,7 +1,7 @@
 const HeroSection = () => (
   <section className="relative min-h-[92vh] md:min-h-screen flex items-center justify-center overflow-hidden">
     <img
-      src="/dallas-city.jpg"
+      src="/hero-skyline.jpg"
       alt="City skyline at sunset"
       className="absolute inset-0 w-full h-full object-cover scale-105"
       width={1920}
