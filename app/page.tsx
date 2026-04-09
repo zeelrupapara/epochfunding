@@ -12,22 +12,22 @@ import ApproachSection from "@/components/ApproachSection";
 import ApplicationForm from "@/components/ApplicationForm";
 import Footer from "@/components/Footer";
 
-const Index = () => (
-  <div className="min-h-screen">
-    <Navbar />
-    <HeroSection />
-    <StatsBar />
-    <AboutSection />
-    <QualificationsSection />
-    <StructureSection />
-    <ParametersSection />
-    <ProcessSection />
-    <UseCasesSection />
-    <TrackRecordSection />
-    <ApproachSection />
-    <ApplicationForm />
-    <Footer />
-  </div>
-);
-
-export default Index;
+export default function Home() {
+  return (
+    <div className="min-h-screen">
+      <Navbar />
+      <HeroSection />
+      <StatsBar />
+      <AboutSection />
+      <QualificationsSection />
+      <StructureSection />
+      <ParametersSection />
+      <ProcessSection />
+      <UseCasesSection />
+      <TrackRecordSection />
+      <ApproachSection />
+      <ApplicationForm />
+      <Footer />
+    </div>
+  );
+}

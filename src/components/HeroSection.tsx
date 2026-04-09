@@ -1,9 +1,7 @@
-import heroImg from "@/assets/hero-skyline.jpg";
-
 const HeroSection = () => (
   <section className="relative min-h-[92vh] md:min-h-screen flex items-center justify-center overflow-hidden">
     <img
-      src={heroImg}
+      src="/hero-skyline.jpg"
       alt="City skyline at sunset"
       className="absolute inset-0 w-full h-full object-cover scale-105"
       width={1920}
@@ -11,16 +9,19 @@ const HeroSection = () => (
     />
     <div className="hero-overlay absolute inset-0" />
     <div className="relative z-10 container text-center px-4 animate-fade-up">
-      <p className="section-label mb-6 text-[11px] md:text-xs">Revenue-Based Bridge Capital</p>
+      <p className="section-label mb-6 text-[11px] md:text-xs">EPOCH Funding</p>
       <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem] font-extrabold text-primary-foreground leading-[1.08] tracking-[-0.03em] mb-6">
-        Executed with Speed.
+        Revenue-Based Bridge Capital
         <br />
         <span className="bg-gradient-to-r from-epoch-gold to-epoch-gold-light bg-clip-text text-transparent">
-          Structured with Discipline.
+          Executed with Speed
         </span>
       </h1>
-      <p className="text-primary-foreground/55 max-w-md mx-auto text-sm sm:text-base md:text-lg font-light mb-10 leading-relaxed">
+      <p className="text-primary-foreground/60 max-w-lg mx-auto text-sm sm:text-base md:text-lg font-light mb-3 leading-relaxed">
         Structured around your revenue. Delivered with certainty.
+      </p>
+      <p className="text-primary-foreground/35 max-w-xl mx-auto text-xs sm:text-sm font-light mb-10 leading-relaxed">
+        Designed for businesses that require capital quickly and prioritize execution over process.
       </p>
       <div className="flex flex-col sm:flex-row gap-3.5 justify-center">
         <a

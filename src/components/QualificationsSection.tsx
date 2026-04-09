@@ -1,3 +1,5 @@
+"use client";
+
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const items = [
@@ -20,7 +22,7 @@ const QualificationsSection = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
           {items.map((it) => (
             <div key={it.num} className="group bg-background rounded-2xl p-6 md:p-8 border border-border hover:border-epoch-gold/30 hover:shadow-lg hover:shadow-epoch-gold/5 transition-all duration-300">
-              <span className="text-4xl font-bold text-epoch-gold/15 tracking-tight group-hover:text-epoch-gold/30 transition-colors duration-300">{it.num}</span>
+              <span className="text-4xl font-bold text-epoch-gold/40 tracking-tight group-hover:text-epoch-gold/60 transition-colors duration-300">{it.num}</span>
               <p className="mt-3 text-sm md:text-[15px] font-medium text-foreground leading-snug">{it.text}</p>
             </div>
           ))}

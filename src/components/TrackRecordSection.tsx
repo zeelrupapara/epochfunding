@@ -1,3 +1,5 @@
+"use client";
+
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const examples = [
@@ -20,8 +22,8 @@ const TrackRecordSection = () => {
           {examples.map((e) => (
             <div key={e.amount} className="group text-center rounded-2xl border border-primary-foreground/[0.06] bg-primary-foreground/[0.03] p-8 md:p-10 hover:border-epoch-gold/25 hover:bg-primary-foreground/[0.06] transition-all duration-300">
               <p className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-epoch-gold to-epoch-gold-light bg-clip-text text-transparent tracking-tight mb-2">{e.amount}</p>
-              <p className="font-medium text-primary-foreground text-sm">{e.type}</p>
-              <p className="text-xs text-primary-foreground/35 mt-1.5">{e.note}</p>
+              <p className="font-medium text-primary-foreground/90 text-sm">{e.type}</p>
+              <p className="text-xs text-primary-foreground/45 mt-1.5">{e.note}</p>
             </div>
           ))}
         </div>

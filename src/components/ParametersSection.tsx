@@ -1,11 +1,13 @@
+"use client";
+
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const params = [
   { label: "Facility", value: "$100K–$1MM+" },
   { label: "Repayment", value: "1.2x–1.5x" },
-  { label: "Term", value: "Up to 12 mo" },
-  { label: "Decision", value: "24–48 hrs" },
-  { label: "Funding", value: "1–3 days" },
+  { label: "Term", value: "Up to 12 months" },
+  { label: "Decision", value: "24–48 hours" },
+  { label: "Funding", value: "1–3 business days" },
 ];
 
 const ParametersSection = () => {
@@ -20,8 +22,8 @@ const ParametersSection = () => {
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 md:gap-4">
           {params.map((p) => (
-            <div key={p.label} className="group text-center bg-primary-foreground/[0.03] rounded-2xl p-6 md:p-8 border border-primary-foreground/[0.06] hover:border-epoch-gold/20 hover:bg-primary-foreground/[0.06] transition-all duration-300">
-              <p className="text-lg md:text-xl font-bold text-epoch-gold tracking-tight">{p.value}</p>
+            <div key={p.label} className="group text-center bg-primary-foreground/[0.03] rounded-2xl p-5 md:p-7 border border-primary-foreground/[0.06] hover:border-epoch-gold/20 hover:bg-primary-foreground/[0.06] transition-all duration-300">
+              <p className="text-base md:text-lg font-bold text-epoch-gold tracking-tight leading-snug">{p.value}</p>
               <p className="text-[10px] text-primary-foreground/35 uppercase tracking-[0.2em] mt-2.5 font-medium">{p.label}</p>
             </div>
           ))}

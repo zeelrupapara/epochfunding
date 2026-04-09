@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# EPOCH Funding
 
-TODO: Document your project here
+Revenue-based bridge capital for operating businesses.
