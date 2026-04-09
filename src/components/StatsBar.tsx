@@ -8,9 +8,9 @@ const StatsBar = () => (
   <section className="bg-epoch-dark">
     <div className="container grid grid-cols-3 divide-x divide-primary-foreground/10">
       {stats.map((s) => (
-        <div key={s.label} className="py-6 md:py-8 text-center">
-          <p className="text-xl sm:text-2xl md:text-3xl font-serif font-bold text-primary-foreground">{s.value}</p>
-          <p className="text-xs sm:text-sm text-primary-foreground/50 uppercase tracking-wider mt-1">{s.label}</p>
+        <div key={s.label} className="py-7 md:py-10 text-center">
+          <p className="text-xl sm:text-2xl md:text-3xl font-bold text-primary-foreground tracking-tight">{s.value}</p>
+          <p className="text-[11px] sm:text-xs text-primary-foreground/40 uppercase tracking-widest mt-1.5">{s.label}</p>
         </div>
       ))}
     </div>

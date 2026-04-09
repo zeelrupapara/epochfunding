@@ -1,12 +1,12 @@
 import aboutImg from "@/assets/about-city.jpg";
 
 const AboutSection = () => (
-  <section id="overview" className="py-16 md:py-24 bg-background">
+  <section id="overview" className="py-20 md:py-28 bg-background">
     <div className="container">
       <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
         <div>
-          <p className="section-label mb-3">About EPOCH</p>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-foreground mb-4 leading-tight">
+          <p className="section-label mb-4">About EPOCH</p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-5 leading-tight tracking-tight">
             Capital Designed for Execution, Not Process
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-4 text-sm md:text-base">
@@ -16,7 +16,7 @@ const AboutSection = () => (
             We serve middle-market companies across Georgia and the United States — businesses with proven revenue that need capital deployed with precision and reliability.
           </p>
         </div>
-        <div className="rounded-lg overflow-hidden">
+        <div className="rounded-xl overflow-hidden">
           <img src={aboutImg} alt="Downtown cityscape" loading="lazy" width={800} height={600} className="w-full h-64 md:h-80 object-cover" />
         </div>
       </div>
