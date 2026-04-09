@@ -4,8 +4,9 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const examples = [
   { amount: "$350K", type: "Logistics Company", note: "Funded in 48 hours" },
-  { amount: "$750K", type: "eCommerce Company", note: "Inventory expansion" },
+  { amount: "$750K", type: "eCommerce Company", note: "Bridge capital" },
   { amount: "$1.2MM", type: "Healthcare Services", note: "Bridge capital" },
+  { amount: "$3MM", type: "Staffing Company", note: "Bridge capital" },
 ];
 
 const TrackRecordSection = () => {
@@ -18,7 +19,7 @@ const TrackRecordSection = () => {
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary-foreground text-center mb-14 tracking-[-0.02em]">
           Recent Funding Examples
         </h2>
-        <div className="grid sm:grid-cols-3 gap-4 md:gap-5">
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
           {examples.map((e) => (
             <div key={e.amount} className="group text-center rounded-2xl border border-primary-foreground/[0.06] bg-primary-foreground/[0.03] p-8 md:p-10 hover:border-epoch-gold/25 hover:bg-primary-foreground/[0.06] transition-all duration-300">
               <p className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-epoch-gold to-epoch-gold-light bg-clip-text text-transparent tracking-tight mb-2">{e.amount}</p>

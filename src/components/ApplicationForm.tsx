@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
-const revenueOptions = ["Under $500K", "$500K–$1MM", "$1MM–$3MM", "$3MM–$5MM", "$5MM+"];
+const revenueOptions = ["$1MM–$3MM", "$3MM–$5MM", "$5MM–$10MM", "$10MM+"];
 const timeOptions = ["Less than 1 year", "1–2 years", "3–5 years", "5+ years"];
 const fundingOptions = ["$100K–$250K", "$250K–$500K", "$500K–$750K", "$750K–$1MM+"];
 
