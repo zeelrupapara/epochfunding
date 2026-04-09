@@ -19,7 +19,7 @@ const AboutSection = () => {
             </p>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-2xl shadow-black/10">
-            <img src="/about-city.jpg" alt="Downtown cityscape" loading="lazy" width={800} height={600} className="w-full h-72 md:h-[360px] object-cover hover:scale-[1.03] transition-transform duration-700" />
+            <img src="/dallas-city.jpg" alt="Downtown cityscape" loading="lazy" width={800} height={600} className="w-full h-72 md:h-[360px] object-cover hover:scale-[1.03] transition-transform duration-700" />
           </div>
         </div>
       </div>
