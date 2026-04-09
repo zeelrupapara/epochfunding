@@ -7,19 +7,32 @@ const navLinks = [
 ];
 
 const Footer = () => (
-  <footer className="bg-epoch-dark border-t border-primary-foreground/[0.06] py-8">
-    <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
-      <p className="text-primary-foreground text-sm font-bold tracking-tight">
-        EPOCH<span className="font-light ml-1 opacity-70">Funding</span>
-      </p>
-      <div className="flex flex-wrap justify-center gap-5 md:gap-6">
-        {navLinks.map((l) => (
-          <a key={l.href} href={l.href} className="text-xs text-primary-foreground/40 hover:text-primary-foreground transition-colors">
-            {l.label}
-          </a>
-        ))}
+  <footer className="bg-epoch-dark border-t border-primary-foreground/[0.06]">
+    <div className="container py-12 md:py-16">
+      <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+        <div>
+          <p className="text-primary-foreground text-lg font-bold tracking-tight mb-2">
+            EPOCH<span className="font-light ml-1 opacity-70">Funding</span>
+          </p>
+          <p className="text-xs text-primary-foreground/30 max-w-xs leading-relaxed">
+            Structured revenue-based capital for businesses seeking fast, non-dilutive liquidity solutions.
+          </p>
+        </div>
+        <div className="flex flex-wrap gap-6 md:gap-8">
+          {navLinks.map((l) => (
+            <a key={l.href} href={l.href} className="text-xs text-primary-foreground/40 hover:text-primary-foreground transition-colors duration-200 font-medium">
+              {l.label}
+            </a>
+          ))}
+        </div>
       </div>
-      <p className="text-xs text-primary-foreground/25">© 2026 EPOCH Funding. All rights reserved.</p>
+      <div className="mt-10 pt-6 border-t border-primary-foreground/[0.04] flex flex-col sm:flex-row items-center justify-between gap-3">
+        <p className="text-[11px] text-primary-foreground/20">© 2026 EPOCH Funding. All rights reserved.</p>
+        <div className="flex gap-6">
+          <a href="#" className="text-[11px] text-primary-foreground/20 hover:text-primary-foreground/40 transition-colors">Privacy Policy</a>
+          <a href="#" className="text-[11px] text-primary-foreground/20 hover:text-primary-foreground/40 transition-colors">Terms of Service</a>
+        </div>
+      </div>
     </div>
   </footer>
 );
