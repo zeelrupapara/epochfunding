@@ -13,7 +13,6 @@ const philosophy = [
 const notFit = [
   "Pre-revenue business",
   "Inconsistent deposits",
-  "Seeking long-term or lowest-cost capital",
 ];
 
 const ApproachSection = () => {

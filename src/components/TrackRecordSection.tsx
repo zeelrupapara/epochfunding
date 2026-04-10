@@ -3,7 +3,7 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const examples = [
-  { amount: "$350K", type: "Logistics Company", note: "Funded in 48 hours" },
+  { amount: "$350K", type: "Logistics Company", note: "Bridge capital" },
   { amount: "$750K", type: "eCommerce Company", note: "Bridge capital" },
   { amount: "$1.2MM", type: "Healthcare Services", note: "Bridge capital" },
   { amount: "$3MM", type: "Staffing Company", note: "Bridge capital" },
