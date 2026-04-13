@@ -17,10 +17,10 @@ const HeroSection = () => (
           Executed with Speed
         </span>
       </h1>
-      <p className="text-primary-foreground/60 max-w-lg mx-auto text-sm sm:text-base md:text-lg font-light mb-3 leading-relaxed">
+      <p className="text-primary-foreground/90 max-w-lg mx-auto text-sm sm:text-base md:text-lg font-light mb-3 leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">
         Structured around your revenue. Delivered with certainty.
       </p>
-      <p className="text-primary-foreground/35 max-w-xl mx-auto text-xs sm:text-sm font-light mb-10 leading-relaxed">
+      <p className="text-primary-foreground/70 max-w-xl mx-auto text-xs sm:text-sm font-light mb-10 leading-relaxed drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)]">
         Designed for businesses that require capital quickly and prioritize execution over process.
       </p>
       <div className="flex flex-col sm:flex-row gap-3.5 justify-center">
