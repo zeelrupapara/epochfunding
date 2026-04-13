@@ -29,8 +29,8 @@ const Navbar = () => {
       }`}
     >
       <div className="container flex items-center justify-between h-16 md:h-[72px]">
-        <a href="#" className="text-primary-foreground text-lg font-bold tracking-tight">
-          EPOCH<span className="font-light ml-1 opacity-80">Funding</span>
+        <a href="#" className="flex items-center">
+          <img src="/logo-full.png" alt="EPOCH Funding" className="h-8 md:h-9 w-auto" />
         </a>
 
         {/* Desktop */}

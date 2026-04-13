@@ -11,9 +11,7 @@ const Footer = () => (
     <div className="container py-12 md:py-16">
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
         <div>
-          <p className="text-primary-foreground text-lg font-bold tracking-tight mb-2">
-            EPOCH<span className="font-light ml-1 opacity-70">Funding</span>
-          </p>
+          <img src="/logo-full.png" alt="EPOCH Funding" className="h-9 w-auto mb-3" />
           <p className="text-xs text-primary-foreground/30 max-w-xs leading-relaxed">
             Structured revenue-based capital for businesses seeking fast, non-dilutive liquidity solutions.
           </p>
