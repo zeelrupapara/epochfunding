@@ -6,7 +6,7 @@ const items = [
   { num: "01", text: "$1MM+ annual revenue" },
   { num: "02", text: "Consistent monthly deposits" },
   { num: "03", text: "Operating business" },
-  { num: "04", text: "U.S.-based preferred" },
+  { num: "04", text: "US-based" },
 ];
 
 const QualificationsSection = () => {

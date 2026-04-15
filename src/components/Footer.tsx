@@ -24,8 +24,12 @@ const Footer = () => (
           ))}
         </div>
       </div>
-      <div className="mt-10 pt-6 border-t border-primary-foreground/[0.04] flex items-center justify-center">
+      <div className="mt-10 pt-6 border-t border-primary-foreground/[0.04] flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-[11px] text-primary-foreground/20">© 2026 EPOCH Funding. All rights reserved.</p>
+        <div className="flex gap-6">
+          <a href="/privacy" className="text-[11px] text-primary-foreground/30 hover:text-primary-foreground transition-colors duration-200">Privacy Policy</a>
+          <a href="/terms" className="text-[11px] text-primary-foreground/30 hover:text-primary-foreground transition-colors duration-200">Terms of Use</a>
+        </div>
       </div>
     </div>
   </footer>

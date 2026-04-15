@@ -4,7 +4,7 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const stats = [
   { value: "24-48h", label: "Decision" },
-  { value: "$1MM+", label: "Facility" },
+  { value: "$100K–$1MM+", label: "Facility" },
   { value: "1-3 Days", label: "Funding" },
 ];
 

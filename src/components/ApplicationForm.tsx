@@ -4,8 +4,8 @@ import { useState } from "react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const revenueOptions = ["$1MM–$3MM", "$3MM–$5MM", "$5MM–$10MM", "$10MM+"];
-const timeOptions = ["Less than 1 year", "1–2 years", "3–5 years", "5+ years"];
-const fundingOptions = ["$100K–$250K", "$250K–$500K", "$500K–$750K", "$750K–$1MM+"];
+const timeOptions = ["1–2 years", "3–5 years", "5+ years"];
+const fundingOptions = ["$100K–$250K", "$250K–$500K", "$500K–$750K", "$750K–$1MM", "$1MM+"];
 
 const inputClasses = "w-full px-4 py-3.5 rounded-xl bg-primary-foreground/[0.04] border border-primary-foreground/[0.08] text-primary-foreground placeholder:text-primary-foreground/25 text-sm focus:outline-none focus:ring-2 focus:ring-epoch-gold/40 focus:border-epoch-gold/40 transition-all duration-200";
 
@@ -67,7 +67,7 @@ const ApplicationForm = () => {
               <input required name="phone" type="tel" placeholder="Phone" className={inputClasses} />
             </div>
             <select required name="revenue" defaultValue="" className={inputClasses}>
-              <option value="" disabled className="text-foreground">Monthly Revenue</option>
+              <option value="" disabled className="text-foreground">Annual Revenue</option>
               {revenueOptions.map((o) => <option key={o} value={o} className="text-foreground">{o}</option>)}
             </select>
             <select required name="time" defaultValue="" className={inputClasses}>

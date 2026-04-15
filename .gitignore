@@ -32,3 +32,4 @@ out/
 /top*.png
 /navbar.png
 /full.png
+tsconfig.tsbuildinfo
